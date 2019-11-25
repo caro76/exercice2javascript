@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+                
+              
+              <span onmouseover="survol()" onmouseout="cache()"><img id='photo' src='photo.jpg'>
+            </span>
+           <hr>
+
+           <form action="">
+               <label for="saisie"></label>
+               <input type="text" id="write" name="write" placeholder="ecrire quelque chose" onkeyup="affichage()">
+           </form>
+
+           <hr>
+
+           <img src="fille.jpg" alt="enfant" id="fille" width="250px"
+           onclick="document.getElementById('fille').style.width='700px';"
+           ondblclick="document.getElementById('fille').style.width='250px' ;">
+          <hr>
+          <div data-scrollReveal img src="desert.png" alt="desert" id="desert">
+          </div>
+
+    <script src="assets/js/script.js"></script>    
+</body>
+</html>
